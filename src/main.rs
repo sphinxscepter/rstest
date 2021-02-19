@@ -1,5 +1,8 @@
 mod modules;
 
+use crate::modules::p1::ferris_test;
+use crate::modules::p1::data_type;
 fn main() {
-    modules::ferrisTest::ferrisTest::sayTest();
+    ferris_test::say_test();
+    data_type::data_type_sty();
 }
